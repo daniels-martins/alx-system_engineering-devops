@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -r [a-zA-Z].+~$
+find . -name "*~$" -type f -delete
